@@ -1,0 +1,33 @@
+.albums {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+.album {
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    grid-template-columns: 120px 1fr;
+    grid-gap: 10px;
+    /* grid-template-rows: 160px; */
+    align-items: center;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+
+.album__details h2 {
+    /* font-size: 2em; */
+}
+
+.album__artist {
+    /* font-style: italic; */
+}
+
+.album__artwork {
+    width: 100%;
+}
